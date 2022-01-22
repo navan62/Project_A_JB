@@ -62,5 +62,3 @@ function setTasks(tasks) {
     localStorage.setItem("tasks", JSON.stringify(tasks));
     draw(state.tasks);
 }
-
-
